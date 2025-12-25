@@ -51,10 +51,12 @@ A full-stack RESTful API backend for managing students and courses, built with *
 <img width="1910" height="867" alt="Screenshot 2025-12-25 224457" src="https://github.com/user-attachments/assets/b6a39198-1e00-498d-aa14-0fed98c18166" />
 
 ### Login Page (Student/Admin Toggle)
-![Login Page](./screenshots/login.png)
+<img width="1900" height="861" alt="Screenshot 2025-12-25 224527" src="https://github.com/user-attachments/assets/1994a866-5825-4939-b211-e88894977f10" />
+
 
 ### Admin Dashboard
-![Admin Dashboard](./screenshots/admin-dashboard.png)
+<img width="1887" height="867" alt="Screenshot 2025-12-25 224628" src="https://github.com/user-attachments/assets/a273cd27-00c1-42b5-995f-41b796448c7a" />
+
 
 ---
 
@@ -464,5 +466,6 @@ This project is licensed under the **ISC License**.
 - [Express.js](https://expressjs.com/)
 - [Neon Database](https://neon.tech/)
 - [JSON Web Tokens](https://jwt.io/)
+
 
 
