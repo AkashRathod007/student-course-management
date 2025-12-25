@@ -190,8 +190,8 @@ REFRESH_TOKEN_EXPIRY=7d
 | Method | Endpoint | Description | Auth Required |
 |--------|----------|-------------|:-------------:|
 | `POST` | `/register/student` | Register a new student | ❌ |
-| `POST` | `/login` | Student login | ❌ |
-| `POST` | `/logout` | Student logout | ❌ |
+| `POST` | `/login` | Student login | ✅ |
+| `POST` | `/logout` | Student logout | ✅ |
 | `GET` | `/profile` | Get student profile | ✅ |
 
 ### 👨‍💼 Admin Routes (`/api/v1/admin`)
@@ -199,10 +199,10 @@ REFRESH_TOKEN_EXPIRY=7d
 | Method | Endpoint | Description | Auth Required |
 |--------|----------|-------------|:-------------:|
 | `POST` | `/register` | Register a new admin | ❌ |
-| `POST` | `/login` | Admin login | ❌ |
-| `GET` | `/students` | Get all students with courses | ❌ |
-| `POST` | `/subjet/:id` | Get students by course code | ❌ |
-| `PATCH` | `/students/:id` | Update student details | ❌ |
+| `POST` | `/login` | Admin login | ✅ |
+| `GET` | `/students` | Get all students with courses | ✅ |
+| `POST` | `/subjet/:id` | Get students by course code | ✅ |
+| `PATCH` | `/students/:id` | Update student details | ✅ |
 
 ---
 
@@ -466,6 +466,7 @@ This project is licensed under the **ISC License**.
 - [Express.js](https://expressjs.com/)
 - [Neon Database](https://neon.tech/)
 - [JSON Web Tokens](https://jwt.io/)
+
 
 
 
