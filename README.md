@@ -2,7 +2,7 @@
 
 A full-stack RESTful API backend for managing students and courses, built with **Node.js**, **Express 5**, and **PostgreSQL (Neon)**. Features role-based authentication for both Students and Admins with JWT-based security.
 
-![Home Page](./screenshots/home.png)
+
 
 ---
 
@@ -464,3 +464,4 @@ This project is licensed under the **ISC License**.
 - [Express.js](https://expressjs.com/)
 - [Neon Database](https://neon.tech/)
 - [JSON Web Tokens](https://jwt.io/)
+
